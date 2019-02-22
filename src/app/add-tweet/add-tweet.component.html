@@ -1,0 +1,8 @@
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <h2 >Add a new tweet</h2>
+        <p >Enter author : <input [(ngModel)]="author" name="author"placeholder="author"></p>
+        <p>Enter message : <input [(ngModel)]="message" name="message"placeholder="message"></p>
+        <button type="button" (click)="addTweet()"class="btn-sm btn-primary">Add</button>
+    </div>
+</div>

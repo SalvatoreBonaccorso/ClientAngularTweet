@@ -1,0 +1,10 @@
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">Tweet</h1>
+    <div class="lead " *ngFor='let tweet of tweets'>
+      <div class="column bg-primary text-white">id: {{ tweet.id }}</div>
+      <div class="column bg-success text-white">author: {{ tweet.author }}</div>
+      <div class="column ">message: {{ tweet.message }}</div>
+      </div>
+  </div>
+</div>
